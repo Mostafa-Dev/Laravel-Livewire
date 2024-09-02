@@ -11,6 +11,9 @@
 <body>
 
     <h1>Hello livewire</h1>
+    @livewire('show-categories')
+    <hr>
+    <livewire:show-categories/>
 
 
     @livewireScripts
